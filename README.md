@@ -16,3 +16,8 @@
 - Trabalhar na responsividade;
 - Melhorar o JavaScript que consome a API na página de detalhes;
 - Encontrar uma forma de buscar mais dados da API para inserir nos campos faltantes da página de detalhes.
+
+![](ss-1.png)
+
+
+![](ss-2.png)
