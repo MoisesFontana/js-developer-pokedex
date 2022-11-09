@@ -75,6 +75,7 @@
 .name-type-id h1 {
  margin: 1.5rem 0 .3rem 0;
  text-transform: capitalize;
+ text-align: left;
 }
 
 .name-type-id .poke-id{
