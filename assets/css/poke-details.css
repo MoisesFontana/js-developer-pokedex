@@ -1,43 +1,45 @@
 .poke-details {
    background-color: #e7e6e6;
    margin: 0 auto;
-   width: 100vw;
+   max-width: 100vw;
+   min-width: 400px;
    height: 100vh;
    padding-top: 1rem;
 }
 
 .container {
- max-width: 95%;
- min-height:95%;
- margin: 0 auto;
- border-radius: 2rem;
- position: relative;
- color: #ffffff;
- padding-top: 2rem;
+   width: 400px;
+   max-width: 500px;
+   height: 780px;
+   margin: 0 auto;
+   border-radius: 2rem;
+   position: relative;
+   color: #ffffff;
+   padding-top: 2rem;
 }
 
 .container a {
-  text-decoration: none;
-  color: #ffffff;
+   text-decoration: none;
+   color: #ffffff;
 }
 
 .arrow {
-  border: solid #ffffff;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
+   border: solid #ffffff;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding: 4px;
 }
 
 .left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
+   transform: rotate(135deg);
+   -webkit-transform: rotate(135deg);
 }
 
 .back-and-heart {
- display:flex;
- justify-content: space-between;
- padding: 1rem 1.5rem 0 1.7rem;
- margin: 0;
+   display:flex;
+   justify-content: space-between;
+   padding: 1rem 1.5rem 0 1.7rem;
+   margin: 0;
 }
 
 .heart {
@@ -45,7 +47,7 @@
    width: 13px;
    height: 13px;
    transform: rotate(45deg);
-  margin-top: .5rem;
+   margin-top: .5rem;
 }
 .heart::before, .heart::after {
    content: "";
@@ -63,41 +65,41 @@
 }
 
 .name-type-id {
- padding: 0 0 0 1.5rem;
- display: grid;
- grid-template-columns: 1fr 1fr;
+   padding: 0 0 0 1.5rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 .name-type-id h1, p {
- margin: 0;
+   margin: 0;
 }
 
 .name-type-id h1 {
- margin: 1.5rem 0 .3rem 0;
- text-transform: capitalize;
- text-align: left;
+   margin: 1.5rem 0 .3rem 0;
+   text-transform: capitalize;
+   text-align: left;
 }
 
 .name-type-id .poke-id{
- text-align: right;
- margin-right: 1rem;
- align-self: end
+   text-align: right;
+   margin-right: 1rem;
+   align-self: end;
 }
 
 .name-type-id span {
- font-size: .750rem;
- padding: .25rem .5rem;
- border-radius: 1rem;
- filter: brightness(1.1);
+   font-size: .750rem;
+   padding: .25rem .5rem;
+   border-radius: 1rem;
+   filter: brightness(1.1);
 }
 
 .name-type-id span:last-of-type {
- margin-left: .4rem;
+   margin-left: .4rem;
 }
 
 .inferior {
    width: 100%;
-   height: 53%;
+   height: 50%;
    background-color: #ffffff;
    color: #000000;
    border-radius: 1.9rem;
@@ -115,13 +117,17 @@
    height: 220px;
    margin-top: -12rem;
    z-index: 1;
-  }
+}
+
+.image > img {
+   min-width: 380px;
+}
 
 .headers {
- padding: 1rem 1rem 0 1rem;
- display: flex;
- justify-content: space-between;
- color: rgb(184, 184, 184);
+   padding: 1rem 1rem 0 1rem;
+   display: flex;
+   justify-content: space-between;
+   color: rgb(184, 184, 184);
 }
 
 .active {
@@ -131,15 +137,15 @@
 }
 
 .about p {
- padding: .4rem 1rem;
+   padding: .4rem 1rem;
 }
 
 .about .left-col {
- display: inline-block;
- width: 4rem;
- color: rgb(160, 158, 158);
- letter-spacing: 0;
- font-size: .75rem;
+   display: inline-block;
+   width: 4rem;
+   color: rgb(160, 158, 158);
+   letter-spacing: 0;
+   font-size: .75rem;
 }
 
 .header {
@@ -148,9 +154,9 @@
 }
 
 .about .right-col {
- margin-left: 1.5rem;
- font-size: .75rem;
- color: rgb(68, 68, 68);
+   margin-left: 1.5rem;
+   font-size: .75rem;
+   color: rgb(68, 68, 68);
 }
 
 .about #poke-ability {
